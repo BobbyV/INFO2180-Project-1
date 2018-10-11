@@ -1,0 +1,70 @@
+/* Create Grid */
+.grid-container{
+	display: grid;
+	grid-template-columns: .25fr .5fr;
+	padding: 15px;
+	grid-column-gap: 40px;
+	grid-row-gap: 30px;
+}
+
+.header{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: lightseagreen;
+}
+
+.sidebar{
+	background-color: gainsboro;
+	align-items: center;
+}
+
+/* Align Name & Title */
+.name{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.title{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+/* Image Circle Effect */
+.img-circle{
+	border-radius: 50%;
+	padding: 10px;
+}
+
+/* Work Experience */
+.a{
+	float: left;
+}
+.b{
+	float: right;
+}
+.c{
+	float: left;
+}
+.d{
+	float: right;
+}
+.e{
+	float: left;
+}
+.f{
+	float: right;
+}
+.g{
+	float: left;
+}
+.k{
+	float: right;
+}
+.l{
+	float: left;
+}
+.m{
+	float: right;
+}
